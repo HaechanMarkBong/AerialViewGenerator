@@ -3,8 +3,8 @@ VERSION = "0.0.1"
 import sys
 from setuptools import setup, find_packages
 
-if sys.version_info < (3, 7):
-    sys.exit('Sorry, Python < 3.7 is not supported.')
+#if sys.version_info < (3, 7):
+#    sys.exit('Sorry, Python < 3.7 is not supported.')
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
